@@ -1,0 +1,81 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    /* background: linear-gradient(to right, #ff4e50, #f9d423); */
+    background: linear-gradient(to right, #f2709c, #ff9472);
+}
+
+.container {
+    width: 500px;
+    background-color: white;
+    padding: 0 30px 30px 30px;
+    border-radius: 6px;
+}
+
+.top-span {
+    border-bottom: 3px solid #ff9472;
+    border-radius: 1px;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-container input {
+    width: 450px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid lightgray;
+    border-radius: 6px;
+    outline: none;
+}
+
+.top-container>input:focus {
+    border-bottom: 2px solid #f2709c;
+}
+
+.checkbox-container {
+    padding: 6px 0 10px 0;
+}
+
+.checkbox-container label>input[type="checkbox"] {
+    width: 12px;
+    cursor: pointer;
+}
+
+.button-1 {
+    width: 100%;
+    padding: 12px;
+    color: white;
+    /* background: linear-gradient(to right, #ff4e50, #f9d423); */
+    background: linear-gradient(to right, #f2709c, #ff9472);
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.button-1:hover {
+    /* background: linear-gradient(to right, #ff4e50, #f9d423); */
+    background: linear-gradient(to right, #f2709c, #ff9472);
+    box-shadow: 1px 1px 8px rgba(240, 129, 59, 0.6);
+}
+
+.bottom-para {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #f2709c;
+    font-size: 18px;
+}
